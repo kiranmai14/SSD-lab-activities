@@ -1,0 +1,44 @@
+body{
+    background-image: url(images/pic.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+}
+.nav{
+    background-color: chocolate;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    padding: 2px;
+}
+.nav ul{
+    list-style-type: none;
+}
+.nav ul li{
+    display: inline;
+    padding: 3px;
+}
+.nav ul li a{
+    color: cyan;
+}
+.fullpage{
+    position: relative;
+    top: 50px;
+}
+.heading h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+}
+.heading h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+   color: brown;
+}
+.nav ul:focus{
+    color: cornsilk;
+}
