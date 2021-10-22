@@ -21,5 +21,5 @@ http
     return res.end();
   })
   .listen(port, () => {
-    console.log("Server is now lisning on port " + port);
+    console.log("Server is now listening on port " + port);
   });
